@@ -1,0 +1,33 @@
+name: acm-lora
+channels:
+  - pytorch
+  - defaults
+  - conda-forge
+  - nvidia
+
+dependencies:
+  - python=3.11
+  - pytorch=2.4.0
+  - torchvision=0.19.0
+  - torchaudio=2.4.0
+  - pytorch-cuda=12.4
+  - numpy
+  - pillow
+  - transformers>=4.43.0
+  - accelerate
+  - matplotlib
+  - pip
+  - pip:
+      - tqdm
+      - easydict
+      - datasets
+      - transformers
+      - peft
+      - trl 
+      - huggingface_hub
+      - bitsandbytes
+      - ipython-autotime
+      - matplotlib
+      - python-dotenv
+      - unsloth
+      - gdown

@@ -1,0 +1,15 @@
+### You are an excellent developer. Your objective is to generate commit mesages by analyzing and understanding the essence of the  given code diffs.
+
+### Task Description:
+# Given the code diffs between two versions of a codebase, generate a concise and meaningful commit message that accurately summarizes the intent and impact of the code changes. The generated commit message should reflect the purpose of the changes and follow standard commit message practices such as brevity, clarity, and relevance to the code modifications.
+
+####Instructions:
+# Analyze the provided code diffs carefully, identifying the purpose of the changes.
+# Use clear and concise language to summarize the change, focusing on the functionality added, modified, or removed.
+# Generate commit message for the code diffs given below.
+
+### Code Diffs:
+{CODE_DIFFS}
+
+### Generate Commit Message for the provided code diffs that accurately describes the intent and effect of the changes in a clear and concise manner.
+Commit Message for the given code diffs: {COMMIT_MESSAGE}
